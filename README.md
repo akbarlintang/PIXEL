@@ -1,2 +1,7 @@
-# Project-Akhir-Teknik-Kompilasi-Kelompok-7
-Project Akhir Mata Kuliah Teknik Kompilasi Teknik Informatika 2018 Rombel 1 Kelompok 7
+# PIXEL
+
+PIXEL merupakan singkatan dari Python Indonesian Xtraordinary Exclusive Language.
+
+Project ini merupakan project akhir aata kuliah teknik kompilasi.
+
+Teknik Informatika 2018 Rombel 1 Kelompok 7
