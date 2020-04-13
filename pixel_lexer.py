@@ -19,3 +19,16 @@ class BasicLexer(Lexer):
     STRING = r'\".*?\"'
 
     EQEQ = r'=='
+    
+    @_(r'\d+')
+    def NUMBER(self, t):
+        t.value = int(t.value)
+        return t
+
+    @_(r'#.*')
+    def COMMENT(self, t):
+        pass
+
+    @_(r'\n+')
+    def newline(self,t ):
+        self.lineno = t.value.count('\n')
